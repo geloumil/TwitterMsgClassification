@@ -1,6 +1,10 @@
 # TwitterMsgClassification
 Classificating Tweets into positive, negative, neutral using Sentiment Analysis
 
+<br>
+<p><i>To view jupyter markdown cells follow:</p></i>
+http://htmlpreview.github.io/?https://github.com/geloumil/TwitterMsgClassification/blob/master/TweetClassification.html
+
 Contents
 --------
 <ol type="a">
