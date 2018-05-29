@@ -18,7 +18,7 @@ Contents
   
 a) Abstract
 -----------
-In the context of this implementation we are approaching tweeter messages analusis using:
+In the context of this implementation we are approaching tweeter messages analysis using:
 <ol type="a">
 <li>Known Classification Methods</li>
  <li>Sentiment Analysis using textblob</li>
@@ -26,14 +26,14 @@ In the context of this implementation we are approaching tweeter messages analus
 
 b)Feature extraction
 --------------------
-In order to train our ML algorithms to utilize text data, there is a need to transform the raw documents(tweets)
+In order to train our ML algorithms to utilize given text data, there is a need to transform the raw documents(tweets)
 into vectors. In addition to that we apply TF-IDF logic so as to find the importance of each word in the documents given.
 
 c)Text Mining
 --------------
 <ul>
 <li>Stop words (english) are removed, since they provide no significant information.</li>
-<li>Spell check and lemmatization is attempted (the code is commented though since it itroduces significal delay).</li>
+<li>Spell check and lemmatization is attempted (the code is commented though since it introduces significal delay).</li>
 <li>URLs are removed.</li>
 <li>Digits are removed.</li>
 <li>Punctuation is removed.</li>
@@ -52,15 +52,15 @@ For the puprose of classifying tweets based on polarity, the following algorithm
 
 After training and evaluating which of the above performs the best in it's default version,
 the hyper parameters of the best one are tuned in aim to produce even better results:
-(Spoiler alert: Best one is Linear Support Vector Machine Classifier aka LinearSVC ***for the whole dataset,
+(Spoiler alert: Best one is Linear Support Vector Machine Classifier aka LinearSVC *** this is for the whole dataset,
  not in this sliced dataset example given***)
 
 e)Sentiment Analysis
 --------------------
-The implementation so far was a plain classification attempt. Sentiment Analysis is now introduced, using TextBlob
+The implementation so far was a plain classification attempt. Sentiment Analysis is now introduced, using TextBlob.
 Similarly to the classification approach, multiple classifiers are trained, so as to select the one that behaves
 in the best way.
-(Spoiler alert they all have the same accuracy
+(Spoiler alert they all have the same accuracy).
 
 Algorithms Selected:
 <ul>
