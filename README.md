@@ -1,5 +1,5 @@
 # TwitterMsgClassification
-Classificating Tweets into positive, negative, neutral using Sentiment Analysis
+Classifying Tweet polarity into positive, negative, neutral using pure Classification Technics and Sentiment Analysis
 
 <br>
 <p><i>To view jupyter markdown cells follow:</p></i>
